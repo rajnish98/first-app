@@ -4,6 +4,7 @@ import './App.css';
 import Button from './Button';
 import Header from './Header';
 import List from './List';
+import Counter from './Counter';
 
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
       <Header title = "Welcome to my website!"/>
 
       <List item= {['apple', 'banana','orange']}/>
+
+      <Counter />
+
+
     </>
   );
 }
